@@ -1,7 +1,7 @@
 import "./style.css";
 import * as THREE from "https://unpkg.com/three@0.140.0/build/three.module.js";
 import { OrbitControls } from "https://unpkg.com/three@0.140.0/examples/jsm/controls/OrbitControls.js";
-import * as dat from "lil-gui";
+import * as dat from "https://cdn.jsdelivr.net/npm/lil-gui@0.17/+esm";
 import { FontLoader } from "https://unpkg.com/three@0.140.0/examples/jsm/loaders/FontLoader.js";
 import { TextGeometry } from "https://unpkg.com/three@0.140.0/examples/jsm/geometries/TextGeometry.js";
 
