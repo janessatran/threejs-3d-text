@@ -24,7 +24,7 @@ const scene = new THREE.Scene();
  * Textures
  */
 const textureLoader = new THREE.TextureLoader();
-const matcapTexture = textureLoader.load("/textures/matcaps/8.png");
+const matcapTexture = textureLoader.load("./dist/textures/matcaps/8.png");
 
 /**
  * Fonts
@@ -33,7 +33,7 @@ const matcapTexture = textureLoader.load("/textures/matcaps/8.png");
  * 2. callback to apply textGeometry
  */
 const fontLoader = new FontLoader();
-fontLoader.load("/fonts/helvetiker_regular.typeface.json", (font) => {
+fontLoader.load("./dist/fonts/helvetiker_regular.typeface.json", (font) => {
   const textGeometry = new TextGeometry("janessa ", {
     font,
     size: 0.5,
