@@ -2,6 +2,7 @@
   "repository": "#",
   "license": "UNLICENSED",
   "main": "index.js",
+  "homepage": "https://janessatran.github.io/threejs-3d-text/",
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
